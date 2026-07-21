@@ -1,8 +1,6 @@
 import apart1 from '../assets/rooms/apart-1.jpg'
 import apart2 from '../assets/rooms/apart-2.jpg'
-import apart3 from '../assets/rooms/apart-3.jpg'
-import apart4 from '../assets/rooms/apart-4.jpg'
-import apart5 from '../assets/rooms/apart-5.jpg'
+import apartNightTerrace from '../assets/rooms/apart-night-terrace.jpg'
 import standart1 from '../assets/rooms/standart-1.jpg'
 import standart2 from '../assets/rooms/standart-2.jpg'
 import gallery1 from '../assets/gallery/gallery-1.jpg'
@@ -38,9 +36,9 @@ export const ROOM_TYPES = [
     label: 'Apart Oda',
     tagline: 'Mutfaklı, bağımsız yaşam alanı',
     description:
-      'Kendi mutfağı, oturma alanı ve terasa açılan kapısıyla bağımsız bir ev konforu sunan apart oda. Uzun konaklamalar için mükemmel.',
-    images: [apart1, apart2, apart3, apart4, apart5],
-    features: ['Mutfak & buzdolabı', 'Oturma alanı', 'Teras erişimi', 'Klima & TV'],
+      'Kendi mutfağı, oturma alanı ve terasa açılan kapısıyla bağımsız bir ev konforu sunan apart oda. Maksimum 4 kişilik olup, odaya ait ayrı bir oturma alanı bulunur. Uzun konaklamalar için mükemmel.',
+    images: [apartNightTerrace, standart2, gallery2, apart1, gallery1],
+    features: ['Maksimum 4 kişi', 'Odaya özel oturma alanı', 'Mutfak & buzdolabı', 'Teras erişimi', 'Klima & TV', 'Özel banyo'],
   },
 ]
 
